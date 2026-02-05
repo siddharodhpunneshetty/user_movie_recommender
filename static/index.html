@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Movie Recommender System - Find similar movies based on genre, rating, and director preferences">
+    <title>Movie Recommender</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="logo">🎬 Movie<span>Recommender</span></h1>
+            <p class="tagline">Discover your next favorite movie</p>
+        </header>
+
+        <!-- Search Section -->
+        <section class="search-section" id="searchSection">
+            <div class="search-container">
+                <div class="search-wrapper">
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        class="search-input" 
+                        placeholder="Search for a movie..."
+                        autocomplete="off"
+                    >
+                    <div id="autocompleteResults" class="autocomplete-results"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Selected Movie Display -->
+        <section class="selected-movie-section" id="selectedMovieSection" style="display: none;">
+            <div class="selected-movie-card">
+                <div class="selected-movie-info">
+                    <span class="selected-label">Selected Movie</span>
+                    <h2 id="selectedMovieTitle" class="selected-title"></h2>
+                    <div class="selected-details">
+                        <span id="selectedMovieGenre" class="badge genre-badge"></span>
+                        <span id="selectedMovieRating" class="badge rating-badge"></span>
+                        <span id="selectedMovieDirector" class="badge director-badge"></span>
+                    </div>
+                </div>
+                <button id="clearSelection" class="clear-btn">✕</button>
+            </div>
+        </section>
+
+        <!-- Weight Selection Section -->
+        <section class="weights-section" id="weightsSection" style="display: none;">
+            <h2 class="section-title">Customize Your Preferences</h2>
+            <p class="section-subtitle">Adjust weights to personalize recommendations (0-10)</p>
+            
+            <div class="weights-grid">
+                <!-- Genre Weight -->
+                <div class="weight-card">
+                    <div class="weight-header">
+                        <span class="weight-icon">🎭</span>
+                        <span class="weight-label">Genre Similarity</span>
+                    </div>
+                    <div class="weight-control">
+                        <input 
+                            type="range" 
+                            id="genreWeight" 
+                            min="0" 
+                            max="10" 
+                            value="5" 
+                            class="weight-slider"
+                        >
+                        <span id="genreWeightValue" class="weight-value">5</span>
+                    </div>
+                </div>
+
+                <!-- Rating Weight -->
+                <div class="weight-card">
+                    <div class="weight-header">
+                        <span class="weight-icon">⭐</span>
+                        <span class="weight-label">Rating Similarity</span>
+                    </div>
+                    <div class="weight-control">
+                        <input 
+                            type="range" 
+                            id="ratingWeight" 
+                            min="0" 
+                            max="10" 
+                            value="5" 
+                            class="weight-slider"
+                        >
+                        <span id="ratingWeightValue" class="weight-value">5</span>
+                    </div>
+                </div>
+
+                <!-- Director Weight -->
+                <div class="weight-card">
+                    <div class="weight-header">
+                        <span class="weight-icon">🎬</span>
+                        <span class="weight-label">Director Similarity</span>
+                    </div>
+                    <div class="weight-control">
+                        <input 
+                            type="range" 
+                            id="directorWeight" 
+                            min="0" 
+                            max="10" 
+                            value="5" 
+                            class="weight-slider"
+                        >
+                        <span id="directorWeightValue" class="weight-value">5</span>
+                    </div>
+                </div>
+            </div>
+
+            <button id="generateBtn" class="generate-btn">
+                <span class="btn-text">Generate Recommendations</span>
+                <span class="btn-loader" style="display: none;"></span>
+            </button>
+        </section>
+
+        <!-- Recommendations Section -->
+        <section class="recommendations-section" id="recommendationsSection" style="display: none;">
+            <h2 class="section-title">Recommended Movies Based on Your Preferences</h2>
+            <div id="recommendationsGrid" class="recommendations-grid"></div>
+        </section>
+
+        <!-- Error Message -->
+        <div id="errorMessage" class="error-message" style="display: none;"></div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+id,title,genre,rating,director
+1,The Matrix,Sci-Fi,8.7,Lana Wachowski
+2,The Matrix Reloaded,Sci-Fi,7.2,Lana Wachowski
+3,The Matrix Revolutions,Sci-Fi,6.7,Lana Wachowski
+4,Inception,Sci-Fi,8.8,Christopher Nolan
+5,Interstellar,Sci-Fi,8.6,Christopher Nolan
+6,The Dark Knight,Action,9.0,Christopher Nolan
+7,The Dark Knight Rises,Action,8.4,Christopher Nolan
+8,Batman Begins,Action,8.2,Christopher Nolan
+9,Tenet,Sci-Fi,7.4,Christopher Nolan
+10,Memento,Thriller,8.4,Christopher Nolan
+11,The Prestige,Thriller,8.5,Christopher Nolan
+12,Dunkirk,Action,7.8,Christopher Nolan
+13,Blade Runner 2049,Sci-Fi,8.0,Denis Villeneuve
+14,Arrival,Sci-Fi,7.9,Denis Villeneuve
+15,Dune,Sci-Fi,8.0,Denis Villeneuve
+16,Sicario,Thriller,7.6,Denis Villeneuve
+17,Prisoners,Thriller,8.1,Denis Villeneuve
+18,The Shawshank Redemption,Drama,9.3,Frank Darabont
+19,The Green Mile,Drama,8.6,Frank Darabont
+20,The Mist,Horror,7.1,Frank Darabont
+21,Pulp Fiction,Crime,8.9,Quentin Tarantino
+22,Kill Bill Vol 1,Action,8.2,Quentin Tarantino
+23,Kill Bill Vol 2,Action,8.0,Quentin Tarantino
+24,Django Unchained,Action,8.4,Quentin Tarantino
+25,Inglourious Basterds,Action,8.3,Quentin Tarantino
+26,The Hateful Eight,Thriller,7.8,Quentin Tarantino
+27,Once Upon a Time in Hollywood,Comedy,7.6,Quentin Tarantino
+28,Reservoir Dogs,Crime,8.3,Quentin Tarantino
+29,Jackie Brown,Crime,7.5,Quentin Tarantino
+30,Fight Club,Drama,8.8,David Fincher
+31,Se7en,Thriller,8.6,David Fincher
+32,Gone Girl,Thriller,8.1,David Fincher
+33,The Social Network,Drama,7.8,David Fincher
+34,Zodiac,Thriller,7.7,David Fincher
+35,The Curious Case of Benjamin Button,Drama,7.8,David Fincher
+36,Panic Room,Thriller,6.8,David Fincher
+37,The Game,Thriller,7.7,David Fincher
+38,Alien 3,Sci-Fi,6.4,David Fincher
+39,Mank,Drama,6.8,David Fincher
+40,Goodfellas,Crime,8.7,Martin Scorsese
+41,The Departed,Crime,8.5,Martin Scorsese
+42,Taxi Driver,Drama,8.2,Martin Scorsese
+43,Raging Bull,Drama,8.2,Martin Scorsese
+44,The Wolf of Wall Street,Comedy,8.2,Martin Scorsese
+45,Casino,Crime,8.2,Martin Scorsese
+46,Shutter Island,Thriller,8.2,Martin Scorsese
+47,The Irishman,Crime,7.8,Martin Scorsese
+48,Gangs of New York,Drama,7.5,Martin Scorsese
+49,Hugo,Adventure,7.5,Martin Scorsese
+50,The Aviator,Drama,7.5,Martin Scorsese
+51,Schindlers List,Drama,9.0,Steven Spielberg
+52,Saving Private Ryan,War,8.6,Steven Spielberg
+53,Jurassic Park,Sci-Fi,8.2,Steven Spielberg
+54,E.T. the Extra-Terrestrial,Sci-Fi,7.9,Steven Spielberg
+55,Jaws,Thriller,8.0,Steven Spielberg
+56,Raiders of the Lost Ark,Adventure,8.4,Steven Spielberg
+57,Indiana Jones and the Last Crusade,Adventure,8.2,Steven Spielberg
+58,Catch Me If You Can,Crime,8.1,Steven Spielberg
+59,Minority Report,Sci-Fi,7.6,Steven Spielberg
+60,A.I. Artificial Intelligence,Sci-Fi,7.2,Steven Spielberg
+61,The Godfather,Crime,9.2,Francis Ford Coppola
+62,The Godfather Part II,Crime,9.0,Francis Ford Coppola
+63,Apocalypse Now,War,8.4,Francis Ford Coppola
+64,The Conversation,Thriller,7.8,Francis Ford Coppola
+65,Bram Stokers Dracula,Horror,7.4,Francis Ford Coppola
+66,Forrest Gump,Drama,8.8,Robert Zemeckis
+67,Back to the Future,Sci-Fi,8.5,Robert Zemeckis
+68,Back to the Future Part II,Sci-Fi,7.8,Robert Zemeckis
+69,Back to the Future Part III,Sci-Fi,7.4,Robert Zemeckis
+70,Cast Away,Drama,7.8,Robert Zemeckis
+71,The Polar Express,Animation,6.6,Robert Zemeckis
+72,Flight,Drama,7.3,Robert Zemeckis
+73,Contact,Sci-Fi,7.5,Robert Zemeckis
+74,Who Framed Roger Rabbit,Comedy,7.7,Robert Zemeckis
+75,The Silence of the Lambs,Thriller,8.6,Jonathan Demme
+76,Philadelphia,Drama,7.7,Jonathan Demme
+77,The Manchurian Candidate,Thriller,6.6,Jonathan Demme
+78,Parasite,Thriller,8.5,Bong Joon-ho
+79,Snowpiercer,Sci-Fi,7.1,Bong Joon-ho
+80,Okja,Adventure,7.3,Bong Joon-ho
+81,Memories of Murder,Crime,8.1,Bong Joon-ho
+82,The Host,Horror,7.0,Bong Joon-ho
+83,Mother,Thriller,7.8,Bong Joon-ho
+84,Get Out,Horror,7.7,Jordan Peele
+85,Us,Horror,6.8,Jordan Peele
+86,Nope,Horror,6.8,Jordan Peele
+87,The Conjuring,Horror,7.5,James Wan
+88,Insidious,Horror,6.8,James Wan
+89,Saw,Horror,7.6,James Wan
+90,Aquaman,Action,6.9,James Wan
+91,Furious 7,Action,7.1,James Wan
+92,The Conjuring 2,Horror,7.3,James Wan
+93,Mad Max Fury Road,Action,8.1,George Miller
+94,Mad Max,Action,6.8,George Miller
+95,Mad Max 2,Action,7.6,George Miller
+96,Happy Feet,Animation,6.4,George Miller
+97,Babe Pig in the City,Comedy,5.9,George Miller
+98,Gladiator,Action,8.5,Ridley Scott
+99,Blade Runner,Sci-Fi,8.1,Ridley Scott
+100,Alien,Sci-Fi,8.5,Ridley Scott
+101,The Martian,Sci-Fi,8.0,Ridley Scott
+102,Black Hawk Down,War,7.7,Ridley Scott
+103,Thelma and Louise,Drama,7.5,Ridley Scott
+104,American Gangster,Crime,7.8,Ridley Scott
+105,Kingdom of Heaven,Action,7.2,Ridley Scott
+106,Prometheus,Sci-Fi,7.0,Ridley Scott
+107,Alien Covenant,Sci-Fi,6.4,Ridley Scott
+108,The Lord of the Rings The Fellowship of the Ring,Fantasy,8.8,Peter Jackson
+109,The Lord of the Rings The Two Towers,Fantasy,8.8,Peter Jackson
+110,The Lord of the Rings The Return of the King,Fantasy,9.0,Peter Jackson
+111,The Hobbit An Unexpected Journey,Fantasy,7.8,Peter Jackson
+112,The Hobbit The Desolation of Smaug,Fantasy,7.8,Peter Jackson
+113,The Hobbit The Battle of Five Armies,Fantasy,7.4,Peter Jackson
+114,King Kong,Adventure,7.2,Peter Jackson
+115,Avatar,Sci-Fi,7.9,James Cameron
+116,Titanic,Romance,7.9,James Cameron
+117,Aliens,Sci-Fi,8.4,James Cameron
+118,Terminator 2 Judgment Day,Sci-Fi,8.6,James Cameron
+119,The Terminator,Sci-Fi,8.1,James Cameron
+120,True Lies,Action,7.3,James Cameron
+121,The Abyss,Sci-Fi,7.5,James Cameron
+122,Avatar The Way of Water,Sci-Fi,7.6,James Cameron
+123,Avengers Endgame,Action,8.4,Anthony Russo
+124,Avengers Infinity War,Action,8.4,Anthony Russo
+125,Captain America Civil War,Action,7.8,Anthony Russo
+126,Captain America The Winter Soldier,Action,7.8,Anthony Russo
+127,Iron Man,Action,7.9,Jon Favreau
+128,Iron Man 2,Action,7.0,Jon Favreau
+129,The Lion King,Animation,8.5,Jon Favreau
+130,The Jungle Book,Adventure,7.4,Jon Favreau
+131,Elf,Comedy,7.1,Jon Favreau
+132,Chef,Comedy,7.3,Jon Favreau
+133,Spider-Man Homecoming,Action,7.4,Jon Watts
+134,Spider-Man Far From Home,Action,7.4,Jon Watts
+135,Spider-Man No Way Home,Action,8.2,Jon Watts
+136,Joker,Drama,8.4,Todd Phillips
+137,The Hangover,Comedy,7.7,Todd Phillips
+138,The Hangover Part II,Comedy,6.4,Todd Phillips
+139,War Dogs,Comedy,7.1,Todd Phillips
+140,Hereditary,Horror,7.3,Ari Aster
+141,Midsommar,Horror,7.1,Ari Aster
+142,Beau Is Afraid,Horror,6.4,Ari Aster
+143,La La Land,Romance,8.0,Damien Chazelle
+144,Whiplash,Drama,8.5,Damien Chazelle
+145,First Man,Drama,7.3,Damien Chazelle
+146,Babylon,Drama,7.2,Damien Chazelle
+147,The Exorcist,Horror,8.1,William Friedkin
+148,The French Connection,Crime,7.7,William Friedkin
+149,To Live and Die in L.A.,Crime,7.3,William Friedkin
+150,Sorcerer,Thriller,7.7,William Friedkin
