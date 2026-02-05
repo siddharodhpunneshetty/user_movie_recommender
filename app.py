@@ -146,8 +146,11 @@ def recommend():
         
         movie_id = movie['id']
         
-        # Call C recommender program
-        recommender_path = os.path.join(os.path.dirname(__file__), 'recommender.exe')
+        # Call C recommender program (works on both Windows and Linux)
+        if os.name == 'nt':  # Windows
+            recommender_path = os.path.join(os.path.dirname(__file__), 'recommender.exe')
+        else:  # Linux (Render)
+            recommender_path = os.path.join(os.path.dirname(__file__), 'recommender')
         
         if not os.path.exists(recommender_path):
             return jsonify({'error': 'Recommender engine not compiled. Please compile recommender.c first.'}), 500
@@ -218,16 +221,21 @@ def get_all_movies():
 # MAIN ENTRY POINT
 # =====================================================
 
+# Load movies on module import (for gunicorn)
+load_movies()
+
 if __name__ == '__main__':
-    # Load movies on startup
-    load_movies()
-    
     print("\n" + "="*50)
     print("Movie Recommender System")
     print("="*50)
-    print("Server starting on http://127.0.0.1:5000")
+    
+    # Get port from environment variable (for Render) or use 5000
+    port = int(os.environ.get('PORT', 5000))
+    
+    print(f"Server starting on http://0.0.0.0:{port}")
     print("Press Ctrl+C to stop")
     print("="*50 + "\n")
     
-    # Run Flask development server
-    app.run(host='127.0.0.1', port=5000, debug=True)
+    # Run Flask server (0.0.0.0 allows external access)
+    app.run(host='0.0.0.0', port=port, debug=False)
+
